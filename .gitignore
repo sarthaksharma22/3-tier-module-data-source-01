@@ -1,4 +1,4 @@
-echo ".terraform/
+.terraform/
 terraform.tfstate
 terraform.tfstate.backup
 *.tfvars
@@ -9,4 +9,4 @@ terraform.tfstate.backup
 *.pem
 *.key
 .DS_Store
-Thumbs.db" > .gitignore
+Thumbs.db
