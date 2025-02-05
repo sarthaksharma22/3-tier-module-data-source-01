@@ -1,0 +1,12 @@
+echo ".terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.tfplan
+.terraform.lock.hcl
+.vscode/
+*.log
+*.pem
+*.key
+.DS_Store
+Thumbs.db" > .gitignore

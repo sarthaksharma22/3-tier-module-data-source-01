@@ -5,16 +5,16 @@ output "vpc_cidr_block" {
   value = module.vpc.vpc_cidr_block
 }
 output "public_subnets_cidr" {
-  value = module.subnets.public_subnets_cidr
+  value = module.vpc.public_subnets_cidr
 }
 output "public_subnet_id" {
-  value = module.subnets.public_subnet_id
+  value = module.vpc.private_subnet_id
 }
 output "private_subnets_cidr" {
-  value = module.subnets.private_subnets_cidr
+  value = module.vpc.private_subnets_cidr
 }
 output "private_subnet_id" {
-  value = module.subnets.private_subnet_id
+  value = module.vpc.private_subnet_id
 }
 output "all_security_group_ids" {
   value = module.securitygroups.security_group_ids
